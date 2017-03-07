@@ -18,7 +18,7 @@
     UITableView *_tableView;
     NSMutableArray *_dataArr;//存储所有搜索到得设备
     
-    NSMutableArray *uuidsArr;
+    NSMutableArray *uuidsArr;//存储uuid
     
     NSMutableArray *peripheralArr;//存储已配对的设备
     NSMutableDictionary *peripheralDic;//存储配对设备的信息
